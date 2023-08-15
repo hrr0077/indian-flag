@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .flag {
+            width: 300px;
+            height: 200px;
+            position: relative;
+        }
+
+        .stripe {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        .saffron {
+            background-color: #ff9933;
+        }
+
+        .white {
+            background-color: #ffffff;
+        }
+
+        .green {
+            background-color: #138808;
+        }
+
+        .ashoka-chakra {
+            position: absolute;
+            top: 33.33%;
+            left: 37%;
+            width: 26%;
+        }
+
+        .ashoka-chakra img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="stripe saffron"></div>
+        <div class="stripe white">
+            <div class="ashoka-chakra">
+                <img src="path_to_your_ashoka_chakra_image.png" alt="Ashoka Chakra">
+            </div>
+        </div>
+        <div class="stripe green"></div>
+    </div>
+</body>
+</html>
